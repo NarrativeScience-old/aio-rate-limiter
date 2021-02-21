@@ -1,6 +1,6 @@
 # aio-rate-limiter
 
-[![](https://img.shields.io/pypi/v/aio-rate-limit.svg)](https://pypi.org/pypi/aio-rate-limit/) [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![](https://img.shields.io/pypi/v/aio-rate-limiter.svg)](https://pypi.org/pypi/aio-rate-limiter/) [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 Rate limit a function using Redis as a backend. This is a smaller library modeled after [python-redis-rate-limit](https://github.com/EvoluxBR/python-redis-rate-limit) but it uses [aioredis](https://github.com/aio-libs/aioredis). Supports Python 3.6+.
 
@@ -55,6 +55,5 @@ poetry version <version>
 # Set your pypi token
 export POETRY_PYPI_TOKEN_PYPI='...'
 # Build and publish
-poetry build
-poetry publish
+poetry publish --build
 ```
